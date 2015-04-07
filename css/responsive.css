@@ -1,0 +1,168 @@
+@media (min-width: 1200px) {
+    html {
+        font-size: 118.75%;
+    }
+}
+@media only screen
+and (max-width : 1000px) {
+    .arrows_box {
+        margin-top: -20px;
+    }
+}
+@media only screen
+and (max-width : 990px) {
+    .map-hand {
+        width: 70%;
+        margin: auto;
+        /*display: none;*/
+    }
+    #home_image {
+        margin-top: 4.2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #homescreen {
+        text-align: center;
+         padding-left: 0;
+    }
+    .appstore-show {
+        display: block;
+    }
+    .appstore-hide {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 81.25%;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 81.25%;
+    }
+    
+    #home_content {
+    text-align:center;
+    position:fixed;
+    top: 2em;
+    left: 0;
+    margin: 0;
+    height:auto;
+    width:auto;
+    }
+    
+    #features_1, #features_2 {
+    text-align:center;
+    }
+
+    #features_1 {
+        background-size: auto;
+        padding-top: 0 !important;
+    }
+    #features_1_content {
+         padding-top: 0;
+    }
+
+    .feature_icon {
+    float:none;
+    width:3rem;
+    height:3rem;
+    margin-bottom: 1rem;
+    margin-right:0;
+    }
+
+    
+    /*#about {*/
+    /*margin-bottom:4.568em;*/
+    /*}*/
+    
+    p {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    #features_3 {
+        height:auto;
+    }
+    #features_3_content_left {
+        text-align:center;
+        padding-bottom:6.5rem;
+        padding-right:1rem;
+    }
+
+    #features_3_content_right {
+        text-align:center;
+        padding-left:1rem;
+
+    }
+
+    #features_3_content_center img{
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .tablet_show {
+        display: block;
+    }
+    .tablet_hide {
+        display: none;
+    }
+    #logo, #logo_header, #slogan, #home_image {
+        opacity: 1 !important;
+    }
+    #about_intro, #service_1, #service_2, #service_3 {
+        opacity: 1 !important;
+    }
+    #features_1_content, #features1a_image, #features1b_image {
+        opacity: 1 !important;
+    }
+    #features_2_content, #features2a_image, #features2b_image {
+         opacity: 1 !important;
+    }
+}
+
+@media only screen
+and (max-width : 600px) {
+    #homescreen {
+        padding-left: 30px;
+        width: 100%;
+    }
+    .map-hand {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .arrows_box {
+        margin-top: -15px;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+
+    h1 {font-size:3rem;}
+    #logo_header {margin-bottom:2em }
+
+    #counter_box {
+        margin-bottom:2em;
+    }
+    .map-hand {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen
+and (max-width : 400px) {
+    .row {
+        text-align: center;
+    }
+}

@@ -1,0 +1,95 @@
+/*######################################*/
+/*Colors for the template */
+/*######################################*/
+
+body {
+    background-image: url("/images/Downtown-LA.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#footer {
+    background-color: rgba(17, 172, 205, 1);
+}
+.cta1 {
+    background-color:#1c8bb5;
+}
+.subscribe-submit, 
+.subscribe-submit:active, 
+.spinner > div,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.cta2 {
+    background-color: #a7cb00;
+}
+
+.spinner > div {
+    background-color: #00CCDF;
+}
+
+
+
+
+#fb_icon:hover,
+#tw_icon:hover, 
+#in_icon:hover, 
+#g_icon:hover, 
+#pin_icon:hover, 
+#fli_icon:hover,
+.services_icon {
+    fill: #1C8BB5;
+}
+
+
+
+
+
+#fb_icon, 
+#tw_icon, 
+#in_icon, 
+#g_icon, 
+#pin_icon, 
+#fli_icon {
+    fill: rgba(255,255,255,0.5);
+}
+
+
+
+
+
+#preview {
+    background-color:#fffcd2;
+}
+
+h3 {
+    color:black;
+}
+
+h4 {
+    color: #959494;
+}
+
+.feature_icon {
+    fill: #959494;
+}
+
+.arrow_up,
+.arrow_down {
+    fill: rgba(107, 105, 108, 0.65);
+}
+
+.arrow_down:hover,
+.arrow_up:hover {
+    fill:#dddddd;
+}
+
+#features_3, .arrows_box_bg {
+    background-color:#f7f8fa;
+}
+
+.owl-theme .owl-controls .owl-page span{
+	background-color: #d8d8d8;
+}
+
+
